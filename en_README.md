@@ -41,16 +41,3 @@ Completely discarding traditional GDI screen scraping and CPU encoding methods, 
 * **Compiler:** MSVC (Visual Studio 2022 or later)
 * **Build System:** CMake (v3.20+)
 * **GPU Driver:** NVIDIA Graphics Card supporting NVENC with the latest drivers installed
-
-### Compilation & Build
-```bash
-# Clone the repository
-git clone [https://github.com/yourusername/yourproject.git](https://github.com/yourusername/yourproject.git)
-cd yourproject
-
-# Create and enter build directory
-mkdir build && cd build
-
-# Configure and generate build files using CMake (Release Mode)
-cmake .. -DCMAKE_BUILD_TYPE=Release
-cmake --build . --config Release
